@@ -71,7 +71,7 @@
             audio.load();
             audio.play().catch(function(error) {
                 console.log("播放失敗，可能是檔案路徑問題或格式不符");
-            });
+            }); 
 
             // 切換畫面
             document.getElementById('start-screen').style.display = 'none';
